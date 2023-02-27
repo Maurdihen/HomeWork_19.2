@@ -1,4 +1,4 @@
-from dao.model.genre_model import Genre
+from app.dao.model.genre_model import Genre
 
 class GenreServise:
     def __init__(self, dao: Genre):

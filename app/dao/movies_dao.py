@@ -1,4 +1,4 @@
-from dao.model.movie_model import Movie
+from app.dao.model.movie_model import Movie
 
 class MovieDao:
     def __init__(self, session):

@@ -1,4 +1,4 @@
-from dao.model.director_model import Director
+from app.dao.model.director_model import Director
 
 class DirectorServise:
     def __init__(self, dao: Director):

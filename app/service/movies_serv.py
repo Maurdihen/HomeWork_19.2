@@ -1,5 +1,5 @@
-from dao.movies_dao import MovieDao
-from flask import request
+from app.dao.movies_dao import MovieDao
+
 
 class MovieServise:
     def __init__(self, dao: MovieDao):
